@@ -1,6 +1,6 @@
 # 🖥️ Website
 
-**❤️ Portfolio coded by `bostrot`!**
+**❤️ Main developer of the portfolio is `bostrot`!**
 
 ### DEMO
 
