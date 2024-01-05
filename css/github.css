@@ -1,13 +1,13 @@
 /* GitHub Projects */
 @media (prefers-color-scheme: dark) {
     :root {
-        --hover-bg-color: #161616;
+        --hover-bg-color: #001e3d;
     }
 }
 
 @media (prefers-color-scheme: light) {
     :root {
-        --hover-bg-color: #e5e5e5;
+        --hover-bg-color: #001e3d;
     }
 }
 
@@ -21,7 +21,7 @@
 }
 
 #github_projects .stars {
-    color: #6c757d !important;
+    color: var(--main-txt-color) !important;
 }
 
 #github_projects a {
@@ -40,7 +40,7 @@
 }
 
 #github_projects .card a {
-    color: var(--main-txt-color);
+    color: var(--main-txt-color) !important;
 }
 
 #github_projects .card p {
@@ -59,18 +59,15 @@
     max-width: 100%;
 }
 
-/* width */
 ::-webkit-scrollbar {
     width: 5px;
     height: 5px;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
     background: transparent;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #888;
+    background: #eaebfe;
 }

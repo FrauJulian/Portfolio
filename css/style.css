@@ -13,19 +13,19 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --main-bg-color: #1e2437;
-    --main-ac-color: #3d4254;
-    --main-txt-color: #b6e2eb;
-    --hover-bg-color: #161616;
+    --main-bg-color: #144272;
+    --main-ac-color: #0A2647;
+    --main-txt-color: #eaebfe;
+    --hover-bg-color: #144272;
   }
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --main-bg-color: #fff;
-    --main-ac-color: #fff;
-    --main-txt-color: #000;
-    --hover-bg-color: #e5e5e5;
+    --main-bg-color: #144272;
+    --main-ac-color: #0A2647;
+    --main-txt-color: #eaebfe;
+    --hover-bg-color: #144272;
   }
 }
 
@@ -54,7 +54,6 @@ footer a {
   text-decoration-line: underline;
 }
 
-/* Slide */
 .js-reminder {
   font-style: normal;
   font-weight: 900;
@@ -99,8 +98,6 @@ footer a {
   background: var(--main-bg-color);
 }
 
-/* End Slide */
-
 .social {
   border: 0;
   margin: auto;
@@ -117,7 +114,7 @@ footer a {
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(2, 41, 84, 0.8);
   transition: 0.3s;
 }
 
@@ -149,7 +146,7 @@ footer a {
   display: grid;
   grid-template-columns: 24% 24% 24% 24%;
   justify-content: space-between;
-  /*   margin-bottom: 2em; */
+  margin-bottom: 2em;
 }
 
 .portfolio-done-item {
@@ -163,10 +160,9 @@ footer a {
 ul.nav {
   list-style-type: none;
   margin: 0;
-  /* padding: 0; */
   overflow: hidden;
   background-color: var(--main-ac-color);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(2, 41, 84, 0.8);
   transition: 0.3s;
 }
 
@@ -198,13 +194,13 @@ ul.nav li.left {
 
 .card-projects {
   display: grid;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(2, 41, 84, 0.8);
   transition: 0.3s;
   background: var(--main-ac-color);
 }
 
 .card-projects:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 16px 0 rgba(2, 41, 84, 0.8);
 }
 
 .icon-area i {
@@ -226,7 +222,7 @@ ul.nav li.left {
 
 .card {
   margin-top: var(--main-padding);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(2, 41, 84, 0.8);
   transition: 0.3s;
   background: var(--main-ac-color);
   padding: var(--main-padding);
@@ -261,7 +257,7 @@ ul.nav li.left {
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 16px 0 rgba(2, 41, 84, 0.8);
 }
 
 .container {
@@ -398,7 +394,6 @@ ul.nav li.left {
 .hover-items {
   display: grid;
   grid-template-columns: auto auto auto;
-  /* center vertically */
   align-items: center;
 }
 
@@ -410,3 +405,17 @@ ul.nav li.left {
   margin: auto;
   padding: 10px;
 }
+
+@media only screen and (min-width: 1025px) {
+  .circle {
+    height: 24px;
+    width: 24px;
+    border-radius: 24px;
+    background-color: black;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 99999999; 
+  }
+} 

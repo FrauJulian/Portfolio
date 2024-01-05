@@ -1,9 +1,7 @@
 fetch("https://api.github.com/users/fraujulian/events")
     .then(response => response.json())
     .then(events => {
-        // inserting
         let updates = document.getElementById("commits");
-        // empty div
         updates.innerHTML = "";
         for (let i = 0; i < 10; i++) {
             let singleCommit = document.createElement("div");

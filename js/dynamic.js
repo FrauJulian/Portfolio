@@ -10,8 +10,8 @@ bioBtn.onclick = function () {
         leftArrow.classList.add("fa-arrow-down");
         rightArrow.classList.remove("fa-arrow-left");
         rightArrow.classList.add("fa-arrow-down");
-        leftArrow.style.position = "initial";
-        rightArrow.style.position = "initial";
+        leftArrow.style.position = "relative";
+        rightArrow.style.position = "relative";
         unfade(bioModel);
     } else {
         bioModel.classList.add("hidden");
@@ -34,7 +34,7 @@ bioModel.onclick = function (evt) {
 };
 
 function fade(element) {
-    var op = 1;  // initial opacity
+    var op = 1; 
     var timer = setInterval(function () {
         if (op <= 0.1) {
             clearInterval(timer);
@@ -47,7 +47,7 @@ function fade(element) {
 }
 
 function unfade(element) {
-    var op = 0.1;  // initial opacity
+    var op = 0.1; 
     element.style.display = 'block';
     var timer = setInterval(function () {
         if (op >= 1) {
@@ -58,3 +58,46 @@ function unfade(element) {
         op += op * 0.1;
     }, 5);
 }
+
+const coords = { x: 0, y: 0 };
+const circles = document.querySelectorAll(".circle");
+
+const colors = [
+    "#b0b8ce"
+  ];
+
+circles.forEach(function (circle, index) {
+  circle.x = 1;
+  circle.y = 1;
+  circle.style.backgroundColor = colors[index % colors.length];
+});
+
+window.addEventListener("mousemove", function(e){
+  coords.x = e.clientX;
+  coords.y = e.clientY;
+  
+});
+
+function animateCircles() {
+  
+  let x = coords.x;
+  let y = coords.y;
+  
+  circles.forEach(function (circle, index) {
+    circle.style.left = x - 10 + "px";
+    circle.style.top = y - 10 + "px";
+    
+    circle.style.scale = (circles.length - index) / circles.length;
+    
+    circle.x = x;
+    circle.y = y;
+
+    const nextCircle = circles[index + 1] || circles[0];
+    x += (nextCircle.x - x) * 0.08;
+    y += (nextCircle.y - y) * 0.08;
+  });
+ 
+  requestAnimationFrame(animateCircles);
+}
+
+animateCircles();
