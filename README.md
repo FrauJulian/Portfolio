@@ -1,11 +1,7 @@
 # 🖥️ Website
 
-**❤️ Main developer of the portfolio is `bostrot`!**
+**❤️ The main developer of this portfolio is `bostrot`! I found his portfolio very stylish and modern, so I copied and optimized it so that I like it.**
 
-### DEMO
-
-<a href="https://fraujulian.xyz/" class="contact-link">My Website</a>
-
-<img src="https://raw.githubusercontent.com/bostrot/portfolio/master/img/erictrenkel.com.png" />
+<h2><a href="https://fraujulian.xyz/" class="contact-link">My Website</a></h2>h2>
 
 ## ~ FrauJulian
