@@ -1,18 +1,5 @@
-/* GitHub Projects */
-@media (prefers-color-scheme: dark) {
-    :root {
-        --hover-bg-color: #001e3d;
-    }
-}
-
-@media (prefers-color-scheme: light) {
-    :root {
-        --hover-bg-color: #001e3d;
-    }
-}
-
 .hoverable:hover {
-    background-color: var(--hover-bg-color);
+    backdrop-filter: blur(150px);
     cursor: pointer;
 }
 

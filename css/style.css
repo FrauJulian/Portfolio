@@ -13,30 +13,35 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --main-bg-color: #144272;
-    --main-ac-color: #0A2647;
-    --main-txt-color: #eaebfe;
-    --hover-bg-color: #144272;
+    --main-txt-color: #fff;
   }
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --main-bg-color: #144272;
-    --main-ac-color: #0A2647;
-    --main-txt-color: #eaebfe;
-    --hover-bg-color: #144272;
+    --main-txt-color: #fff;
   }
+}
+
+hr {
+  color: transparent;
+}
+
+h2 {
+  line-height-step: 100px;
 }
 
 html,
 body {
-  font-family: 'Exo', sans-serif;
-  margin: auto;
+  font-family: 'Comic Sans MS', Arial, sans-serif;
+  margin: 0;
   color: var(--main-txt-color);
   text-align: center;
-  background: var(--main-bg-color);
-  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(".././img/back.jpg");
+  height: 100%;
 }
 
 a {
@@ -77,8 +82,7 @@ footer a {
 .grid-item {
   width: var(--main-bio-size);
   margin-left: var(--main-padding);
-  background: var(--main-bg-color);
-  cursor: pointer;
+  backdrop-filter: blur(150px);
   border-radius: var(--main-border-radius);
 }
 
@@ -95,7 +99,7 @@ footer a {
 .bio table .right {
   cursor: pointer;
   border-radius: var(--main-border-radius);
-  background: var(--main-bg-color);
+  backdrop-filter: blur(150px);
 }
 
 .social {
@@ -161,7 +165,7 @@ ul.nav {
   list-style-type: none;
   margin: 0;
   overflow: hidden;
-  background-color: var(--main-ac-color);
+  backdrop-filter: blur(150px);
   box-shadow: 0 4px 8px 0 rgba(2, 41, 84, 0.8);
   transition: 0.3s;
 }
@@ -196,7 +200,7 @@ ul.nav li.left {
   display: grid;
   box-shadow: 0 4px 8px 0 rgba(2, 41, 84, 0.8);
   transition: 0.3s;
-  background: var(--main-ac-color);
+  backdrop-filter: blur(150px);
 }
 
 .card-projects:hover {
@@ -213,7 +217,7 @@ ul.nav li.left {
 
 .icon-area i:hover {
   cursor: pointer;
-  background: var(--hover-bg-color);
+  backdrop-filter: blur(150px);
 }
 
 .icon-area a {
@@ -224,7 +228,7 @@ ul.nav li.left {
   margin-top: var(--main-padding);
   box-shadow: 0 4px 8px 0 rgba(2, 41, 84, 0.8);
   transition: 0.3s;
-  background: var(--main-ac-color);
+  backdrop-filter: blur(20px);
   padding: var(--main-padding);
   text-align: center;
   color: var(--main-txt-color);
@@ -236,7 +240,10 @@ ul.nav li.left {
 
 .hover-items,
 .hover-items a {
-  color: var(--main-txt-color);
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%); 
+  -webkit-background-clip: text;
+  color: transparent;
   padding: var(--main-padding) 10px;
   font-size: large;
   margin: auto;
@@ -246,7 +253,7 @@ ul.nav li.left {
 
 .hover-items a:hover {
   cursor: pointer;
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 
@@ -261,6 +268,8 @@ ul.nav li.left {
 }
 
 .container {
+  background: transparent;
+  backdrop-filter: blur(20px);
   margin: auto;
   width: var(--main-container-width);
 }
