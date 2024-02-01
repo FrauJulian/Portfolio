@@ -54,8 +54,8 @@
                               projectModal.classList = "modal github-modal hidden";
                               projectModal.innerHTML = `
                         <div class="card">
-                            <a href="${project.html_url}" target="blank" style="float: right">Visit on GitHub</a>
-                            <a href="#" target="blank" style="float: left">❌</a>
+                            <a onclick="location.reload()" href="#" style="float: right"> ❌</a>
+                            <a href="${project.html_url}" target="blank" style="float: left"> Visit on GitHub</a>
                             <br>
                             <br>
                             ${html}
