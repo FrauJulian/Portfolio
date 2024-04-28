@@ -36,7 +36,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-image: url(".././img/back.jpg");
+  background-image: url("../img/back.jpg");
   height: 100%;
 }
 
@@ -53,6 +53,10 @@ footer {
 footer a {
   color: var(--main-txt-color);
   text-decoration-line: underline;
+}
+
+#preloader div {
+  background: url("../img/back.jpg"), url("../img/loading.gif") no-repeat center center;
 }
 
 .js-reminder {
@@ -114,7 +118,7 @@ footer a {
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
-  box-shadow: 0 4px 8px 0 rgba(2, 41, 84, 0.8);
+  box-shadow: 0 4px 8px 0 #0e85b456;
   transition: 0.3s;
 }
 
@@ -162,7 +166,7 @@ ul.nav {
   margin: 0;
   overflow: hidden;
   backdrop-filter: blur(150px);
-  box-shadow: 0 4px 8px 0 rgba(2, 41, 84, 0.8);
+  box-shadow: 0 4px 8px 0 #0e85b456;
   transition: 0.3s;
 }
 
@@ -194,13 +198,13 @@ ul.nav li.left {
 
 .card-projects {
   display: grid;
-  box-shadow: 0 4px 8px 0 rgba(2, 41, 84, 0.8);
+  box-shadow: 0 4px 8px 0 #0e85b456;
   transition: 0.3s;
   backdrop-filter: blur(150px);
 }
 
 .card-projects:hover {
-  box-shadow: 0 8px 16px 0 rgba(2, 41, 84, 0.8);
+  box-shadow: 0 8px 16px 0 #0e85b456;
 }
 
 .icon-area i {
@@ -222,7 +226,7 @@ ul.nav li.left {
 
 .card {
   margin-top: var(--main-padding);
-  box-shadow: 0 4px 8px 0 rgba(2, 41, 84, 0.8);
+  box-shadow: 0 4px 8px 0 #0e85b456;
   transition: 0.3s;
   backdrop-filter: blur(20px);
   padding: var(--main-padding);
@@ -257,7 +261,7 @@ ul.nav li.left {
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(2, 41, 84, 0.8);
+  box-shadow: 0 8px 16px 0 #0e85b456;
 }
 
 .container {
