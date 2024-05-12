@@ -14,17 +14,13 @@
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/github.css" />
     <link rel="stylesheet" type="text/css" href="css/donation.css" />
-
-    <link rel="stylesheet" type="text/css" href="fonts/roboto.css" />
-    <link rel="stylesheet" type="text/css" href="fonts/exo.css" />
-
 </head>
 
 <body>
 
     <div class="container">
         <div class="card profile">
-            <img src="img/logo.webp">
+            <img src="img/logo.webp" width="200px" height="200px" fetchpriority="low">
             <h1>Hy! 👋 I'm Julian Lechner!</h1>
             <h2>aka. FrauJulian</h2>
 
@@ -54,7 +50,6 @@
                     <h3>Just contact me!</h3>
                 </p>
             </div>
-            <p class="js-reminder">ENABLE JAVASCRIPT</p>
             <div class="icon-area">
 
                 <a href="mailto:fraujulian@lechner.top" onclick="plausible('envelope')" target="_blank">
@@ -128,13 +123,12 @@
             <script>document.write(new Date().getFullYear())</script> Julian Lechner - All rights reserved.
         </p>
 
-        <script src="js/slide.js" defer></script>
-        <script src="js/github.js"></script>
-        <script src="js/dynamic.js"></script>
+        <script rel="preload" src="js/github.js"></script>
+        <script rel="preload" src="js/dynamic.js"></script>
 
-        <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="fraujuliannn" data-description="Support me on Buy me a hot choclate!" data-message="" data-color="#5F7FFF" data-position="Right" data-x_margin="18" data-y_margin="18" defer></script>
+        <script rel="preload" data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="fraujuliannn" data-description="Support me on Buy me a hot choclate!" data-message="" data-color="#5F7FFF" data-position="Right" data-x_margin="18" data-y_margin="18" defer></script>
        
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-33TY5MDJ3X"></script>
+        <script rel="preload" async src="https://www.googletagmanager.com/gtag/js?id=G-33TY5MDJ3X"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
@@ -143,7 +137,7 @@
             gtag('config', 'G-33TY5MDJ3X');
         </script>
 
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8132805866670069" crossorigin="anonymous" defer></script>
+        <script rel="preload" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8132805866670069" crossorigin="anonymous" defer></script>
 
     </footer>
 </body>
