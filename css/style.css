@@ -36,7 +36,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-image: url("../img/back.jpg");
+  background-image: url("../img/background.webp");
   height: 100%;
 }
 
@@ -53,10 +53,6 @@ footer {
 footer a {
   color: var(--main-txt-color);
   text-decoration-line: underline;
-}
-
-#preloader div {
-  background: url("../img/back.jpg"), url("../img/loading.gif") no-repeat center center;
 }
 
 .js-reminder {
