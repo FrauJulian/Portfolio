@@ -1,6 +1,29 @@
-# 🖥️ Website
+# 🖥️ Portfolio Website
 
-**❤️ The integration of the Github projects inspired by `bostrot`!**
-**It is possible that this source code is faulty or incomplete, which is why the latest developer version is always uploaded.**
+<br>
 
-## ~ FrauJulian
+**My own Portfolio Website!**
+
+<br>
+
+## 👂 Languages:
+- html
+- CSS
+- JS
+
+<br>
+
+## Usefull Links:
+- [SynHost Website](https://synhost.de/)
+- [SynHost Discord](https://discord.gg/ByJhNavpsd)
+
+<br>
+
+## 📋 Credits:
+~ Everything made by [`FrauJulian`](https://github.com/FrauJulian). <br>
+~ Inspired by [`bostrot`](https://github.com/bostrot). <br>
+
+<br>
+
+### ~ Greetings from Austria!
+
