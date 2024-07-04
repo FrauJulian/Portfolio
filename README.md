@@ -2,7 +2,7 @@
 
 <br>
 
-**My own Portfolio Website!**
+Here you can see everything about my portfolio website! Use it if you do not violate the license.
 
 <br>
 
@@ -14,14 +14,14 @@
 <br>
 
 ## Usefull Links:
+- [Portfolio Website](https://fraujulian.xyz/)
 - [SynHost Website](https://synhost.de/)
-- [SynHost Discord](https://discord.gg/ByJhNavpsd)
 
 <br>
 
 ## 📋 Credits:
-~ Everything made by [`FrauJulian`](https://github.com/FrauJulian). <br>
-~ Inspired by [`bostrot`](https://github.com/bostrot). <br>
+~ Made by [`FrauJulian`](https://github.com/FrauJulian). <br>
+~ feat. [`bostrot`](https://github.com/bostrot). <br>
 
 <br>
 
