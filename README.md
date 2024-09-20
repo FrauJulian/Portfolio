@@ -21,7 +21,7 @@ Here you can see everything about my portfolio website! Use it if you do not vio
 
 ## 📋 Credits:
 ~ Made by [`FrauJulian`](https://github.com/FrauJulian). <br>
-~ feat. [`bostrot`](https://github.com/bostrot). <br>
+~ feat. [`bostrot`](https://github.com/bostrot). & ~ [`Atlas.`](https://discord.com/users/1179778095385939970) <br>
 
 <br>
 
