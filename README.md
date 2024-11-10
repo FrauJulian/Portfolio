@@ -1,29 +1,22 @@
-# 🖥️ Portfolio Website
+# 🖼️ FrauJulian's Portfolio Website
+  
+**My portfolio resume website!**
 
-<br>
+## 👀 Features
+- view all github repositories
+    - view readme 
+    - view primary language
+    - view stars
 
-Here you can see everything about my portfolio website! Use it if you do not violate the license.
-
-<br>
-
-## 👂 Languages:
-- html
+## 👂 Languages/Framework/Packages:
+- Javascript
 - CSS
-- JS
+- HTML
 
-<br>
-
-## Usefull Links:
-- [Portfolio Website](https://fraujulian.xyz/)
-- [SynHost Website](https://synhost.de/)
-
-<br>
+## 🙋‍♂️ Usefull Links:
+- [Website](https://fraujulian.xyz/)
 
 ## 📋 Credits:
-~ Made by [`FrauJulian`](https://github.com/FrauJulian). <br>
-~ feat. [`bostrot`](https://github.com/bostrot). & ~ [`Atlas.`](https://discord.com/users/1179778095385939970) <br>
+~ made by [**FrauJulian**](https://fraujulian.xyz/).  
 
-<br>
-
-### ~ Greetings from Austria!
-
+### Greetings from Austria!
